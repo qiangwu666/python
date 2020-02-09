@@ -1,2 +1,2 @@
 # python
-python的基础学习
+python的基础学习，内部含两个小项目，一个是利用MySQL结合Python制作的学生信息管理系统，另外一个是纯Python写的飞机大战小游戏
