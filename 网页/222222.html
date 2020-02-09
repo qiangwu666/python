@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>web开发</title>
+		<style type="text/css">
+			/*公共的css样式*/
+			body,span,h1,h2,h3,h4,h5,table,tr,td,th,p,img,ol,div,ul,li,a
+			{margin: 0px;padding: 0px;}
+			ul{list-style: none;}
+			.clear{clear: both;width: 100%;height: 5px;}
+			#container
+			{
+				width: 1200px;
+				margin: 0px auto;
+			}
+
+			
+			#header{width: 100%;height: 67px;background-color: #ddd;}
+			#aa{width: 600px;height: 67px;float:right;}
+			#ab{width: 236px;height: 67px;float:left;background:url('./logo.png');}
+
+			#nav{
+				width: 100%;height: 50px;margin-top: 0px;
+				background: url('./daohang.jpg')repeat-x 0px 0px;
+			}
+			#nav ul li{
+				width: 66px;
+				float: left;
+				line-height: 50px;
+				margin-left: 40px;
+			}
+			#nav ul li a{
+				color: #fff;
+				text-decoration: none;
+				line-height: 50px;
+				font-size: 18px;
+				font-weight: bold;
+				text-align: center;
+				width:100px;
+				height: 50px;
+				display: block;
+			}
+			#nav ul li a:hover{
+				color: blue;
+				background-color: #fff;
+			}
+			#main{width: 100%;height: 395px;}
+
+			#article{width: 560px;height: 395px;float: right;margin-top: 15px;}
+
+			#aside{width: 632px;height: 395px;float:left;background:url('./3.jpg');}
+			
+			#maa{width: 100%;height: 250px;}
+			#arr{width: 560px;height: 250px;float: right;margin-top: 15px;}
+			#ass{width: 632px;height: 250px;float:left;margin-top: 150px;}
+
+			#footer{width: 100%;height: 50px;margin-top: 5px;background-color: #C0C0C0;}
+
+			a{
+				font-size: 20px;
+				color: #222;
+				text-decoration: none;
+			}
+			a:hover{
+				color: blue;
+				text-decoration: underline;	
+			}
+
+			div.news{
+				width: 550px;
+				border: 1px solid #ddd;
+				padding: 20px;
+			}
+
+			div.news ul li{
+				line-height: 50px;
+				width: 100%;
+				padding-left: 15px;
+				background:url('./bullet.gif') no-repeat 10px 20px;
+			}
+			div.dd{
+				width: 550px;
+				font:16px/2 '微软雅黑';
+				letter-spacing: 2px;
+				color: #333;
+				text-indent: 2em;
+			}
+			div.oo{
+				width: 400px;
+				font:15px/1 '微软雅黑';
+				font-weight: bold;
+				letter-spacing: 2px;
+				color: #333;
+				position:absolute;right:170px;
+			}
+			div.vv{
+				width:800px;
+				font:5px/1.5 '微软雅黑';
+				font-size: 10px;
+				letter-spacing: 0.5px;
+				color: #333;
+				margin-top: 10px;
+				position:absolute;right:300px;		
+			}
+		
+
+		</style>
+	</head>
+	<body>
+		
+		<div id='container'>
+			<!-- 页头开始 -->
+			<div id='header'>
+				<div id='aa'>
+					<div class="oo">
+							<a href='#'>教职工</a>
+    						<a href='#'>在校生</a>
+		    				<a href='#'>校友</a>
+		    				<a href='#'>考生与访客</a>
+		    				<a href='#'>English</a>
+					</div>
+				</div>
+				<div id='ab'>
+					<div class='ooo'>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!-- 页头结束 -->
+
+			<!-- 导航开始 -->
+			<div id='nav'>
+				<ul>
+					<li><a href='#'>网站首页</a></li>
+					<li><a href='#'>学校概况</a></li>
+					<li><a href='#'>机构设置</a></li>
+					<li><a href='#'>人才培养</a></li>
+					<li><a href='#'>科学研究</a></li>
+					<li><a href='#'>师资队伍</a></li>
+					<li><a href='#'>招生就业</a></li>
+					<li><a href='#'>校园生活</a></li>
+				</ul>
+			</div>
+			<!-- 导航结束 -->
+			<div class="clear"></div>
+			<!-- 主页1开始 -->
+			<div id='main'>
+				<div id='article'>
+						<div class='dd'>
+						<p>集美大学（JiMei University），是福建省重点建设高校，交通运输部与福建省、国家海洋局与福建省、福建省与厦门市共建高校，博士学位授予单位，硕士研究生推免单位。 </p>
+						<p>学校办学始于著名爱国华侨领袖陈嘉庚先生1918年创办的集美学校师范部和1920年创办的集美学校水产科、商科，1994年，集美师范高等专科学校、集美航海学院、集美财经高等专科学校、厦门水产学院、福建体育学院合并组建集美大学。</p>
+						<p>截至2017年2月，该校占地面积2300多亩，校舍面积近100万平方米，新校区入选新中国成立60周年“百项经典暨精品工程”，全国唯一入选该项目的高校；设有21个学院，69个本科专业；有专任教师1500多人，在校生27000余人，其中全日制本科生26000余人、各类研究生1200余人。</p>
+					</div>
+				</div>
+				<div id='aside'>	
+				</div>
+			</div>
+			<!-- 主页1结束 -->
+			<div class="clear"></div>
+			<!--主页2开始
+			<! --  尾页开始 -->
+			<div id='maa'>
+				<div id="arr">
+					<div class="news">
+						<ul>
+								<li><a href="#">2018年中国航海学会学术年会在我校开幕</a></li>
+								<li><a href="#">百年极大与陈嘉庚的爱国情</a></li>
+								<li><a href="#">嘉庚建筑重生 献礼集大校庆</a></li>
+								<li><a href="#">集美大学举办建校100周年纪念大会</a></li>
+								<li><a href="#">我校项目入选第三批省大学生思想政治教育创新示范项目</a></li>
+								<li><a href="#">我校校友会获中国社会组织评估5A等级并应邀进行工作交流</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="ass">
+					<h2><a href="#">客户端登录</a></h2>
+						
+						<table width="300" align="center" border="0" cellspacing="0" cellpadding="4">
+						<form action="" method="post"></form>
+							<tbody><tr>
+								<th>用户名：</th>
+								<td><input name="yonghu" type="text"></td>
+							</tr>
+							<tr>
+								<th>密码：</th>
+								<td><input name="psw" type="password"></td>
+							</tr>
+							<tr>
+								<td align="center" colspan="2">学生/教师账号在此登录</td>
+
+							</tr> 
+
+							<tr>
+								<td align="center" colspan="2"><input name="denglu" type="image" src="./denglu.jpg"> <a href="">忘记密码</a></td>
+							</tr>
+						
+						</tbody></table>
+				</div>
+
+
+
+
+			<div class="clear"></div>
+			<div id='footer'>
+				<div class="vv">
+					<ul>
+						
+						<a href='#'>集大通</a>
+						<a href='#'>办公大厅</a>
+						<a href='#'>嘉庚图书馆</a>
+						<a href='#'>集美大学诚毅学院</a>
+							<a href='#'>在线咨询</a>
+							<a href='#'>校长信箱</a>
+							<a href='#'>关于我们</a>
+					</ul>
+				</div>
+			</div>
+			<!-- 尾页结束 -->
+		</div>
+	</body>
+</html>
