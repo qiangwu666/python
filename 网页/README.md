@@ -1,0 +1,1 @@
+采用HTML，结合Django框架，Javascript写小网站
